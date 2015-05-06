@@ -1,5 +1,13 @@
-intelxdk.config.*.xml
-!intelxdk.config.additions.xml
-*.mobileprovision
-*.xdke
-[Tt]humbs.db
+# ignore "excess" files and directories
+# in essence, ignore everything but *.xdk file and www, docs and plugins directories
+/*
+!/www
+!/plugins
+!/docs
+!/config.xml
+!/README.md
+!/LICENSE.md
+!/intelxdk.config.additions.xml
+!/*.xdk
+!/.gitignore
+!/*.png
