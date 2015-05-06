@@ -1,13 +1,18 @@
 {
-"repoName":"template-blank-cordova-ad-project",
-"title":"Blank App Designer Cordova Template",
-"tooltip":"Use this template to develop a cross-platform mobile app using the drag-and-drop App Designer UI editor and your choice of UI widgets provided by Intel App Framework, jQuery Mobile, Bootstrap or Topcoat. Apps developed with this template can be built to run on various mobile devices.",
-"description":"Use this template to develop a cross-platform mobile app using the drag-and-drop App Designer UI editor and your choice of UI widgets provided by Intel App Framework, jQuery Mobile, Bootstrap or Topcoat. Apps developed with this template can be built to run on various mobile devices.",
-"articleUrl":"https://github.com/gomobile/template-blank-cordova-ad-project/blob/master/README.md",
-"visible":"true",
-"type":"appdesigner",
-"keywords":["App Designer","Blank Project"],
-"highlights" : [""],
-"relationship":"blank",
-"projectTypeName": "com.intel.xdk.projecttype.jsapp"
+    "title" : "Blank App Designer Cordova Template",
+    "tooltip" : "Use this template to develop a cross-platform mobile app using the drag-and-drop App Designer UI editor and your choice of UI widgets provided by Intel App Framework, jQuery Mobile, Bootstrap, Ionics or Topcoat. Apps developed with this template can be built to run on various mobile devices as well as in a mobile browser.",
+    "description" : "Use this template to develop a cross-platform mobile app using the drag-and-drop App Designer UI editor and your choice of UI widgets provided by Intel App Framework, jQuery Mobile, Bootstrap, Ionics or Topcoat. Apps developed with this template can be built to run on various mobile devices as well as in a mobile browser.",
+    "projectTypeName" : "com.intel.xdk.projecttype.jsapp",
+    "repoName" : "template-blank-cordova-ad-project",
+    "articleUrl" : "https://github.com/gomobile/template-blank-cordova-ad-project/",
+    "relationship" : "blank",
+    "type" : "appdesigner",
+    "keywords" : [
+        "App Designer",
+        "Blank Project"
+    ],
+    "highlights" : [
+        ""
+    ],
+    "visible" : true
 }

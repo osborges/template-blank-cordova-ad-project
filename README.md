@@ -42,14 +42,10 @@ containers for all new applications. These script files can be added by hand, if
 you require them, as follows:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-<script src="intelxdk.js" id="xdkJSintelxdk_"></script>
-<script src="cordova.js" id="xdkJScordova_"></script>
-<script src="xhr.js" id="xdkJSxhr_"></script>
+<script src="intelxdk.js"></script>
+<script src="cordova.js"></script>
+<script src="xhr.js"></script>
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-The id tags are there to help future versions of the Intel XDK precisely
-identify these special lines in your `index.html` file; your application does
-not need to reference them.
 
 The `xhr.js` file's purpose was to provide external domain access to your mobile
 web app. In a Cordova web app this is controlled via the *Domain Access
